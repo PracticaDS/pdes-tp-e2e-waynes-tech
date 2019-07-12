@@ -1,0 +1,17 @@
+{
+  "name": "todo-list-e2e",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cloneAll": "node clone-all.js",
+    "clean": "rm -rf cloned-repos",
+    "waitForServer": "node wait-for-server.js"
+  },
+  "devDependencies": {
+    "cypress": "^3.3.2",
+    "request": "^2.88.0"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules
+cloned-repos
+cypress/screenshots
+cypress/videos
